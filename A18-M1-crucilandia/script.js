@@ -17,7 +17,17 @@ function somar(num1, num2){
 // var numero = String(23)
 // var nome = "Beatriz" 
 // console.log(nome.toLowerCase());
-
+var teste = 90
 // document = html
 // document.write = escrevendo no HTML
-document.write(somar(3,9));
+//document.write(`<h1 style="color: yellow">${somar(23,5)}</h1>`);// saida 
+//prompt // entrada
+
+// INTERPOLAÇÃO -> UNIR VARIAVEIS COM STRING
+// adicionar crase `` dentro das crases quando for utilizar
+// variaveis ou funções ${variavel/funcao}
+// ex: `<h1>${nomeUsuario}</h1>
+var nome = "Beatriz";
+var nomeJogo = "CS"
+console.log("ola " + nome + " seja bem vindo " + nomeJogo) // concatenando
+console.log(`ola ${nome} seja bem vindo ${nomeJogo}`) // interpolação
