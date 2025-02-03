@@ -1,0 +1,29 @@
+/* classe padrao */
+.btn-click{
+    background-color: aqua;
+}
+
+
+/* pseudo-class -> interações do usuario */
+/* 
+   inerte
+   mouse encima de mim -> hover
+   fui clicado -> visited
+   estao clicando em mim -> active
+*/
+
+.titulo:hover{
+  color: yellow;
+}
+
+.btn-click:hover{
+    background-color: blueviolet;
+    width: 100px;
+    height: 50px;
+    cursor:progress;
+}
+
+/* pseudo-elementos */
+.titulo::after{
+    content: url(smiley.gif);
+}

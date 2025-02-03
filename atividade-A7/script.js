@@ -1,0 +1,1 @@
+console.log("o resultado é: " + 3 * 3);

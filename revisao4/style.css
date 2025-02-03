@@ -1,0 +1,28 @@
+.box {
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+
+/* utilizar unidades de medidas proporcionais */
+/* % | vh | rem */
+
+
+/* max-width 0 até x */ 
+/* min-width x até infinito */
+/* max-heigth 0 até x */
+/* min-heigth x até infinito */
+
+       /* 0 - 500 */
+@media (max-width: 500px){
+    body{
+        background-color: black;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+}

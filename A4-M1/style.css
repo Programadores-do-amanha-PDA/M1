@@ -1,0 +1,45 @@
+/* .container{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+}
+.container-blue{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+
+}
+
+.img-mario{
+   width: 150px;
+   height: 150px;
+}
+
+.div-purple{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: purple;
+}
+
+.div-brown{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: brown;
+} */
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}

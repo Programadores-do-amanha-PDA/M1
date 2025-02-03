@@ -1,0 +1,36 @@
+.first{
+    margin-left: 50px;
+    height: 650px;
+    width: 650px;
+    background-color: orangered;
+    
+}
+.items{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+}
+
+/* quando o flex-direction é row
+   justify-content alinha na HORIZONTAL
+   align-items alinha na VERTICAL
+
+   quando o flex-direction é column
+   justify-content alinha na VERTICAL
+   align-items alinha na HORIZONTAL
+*/
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    ba
+}

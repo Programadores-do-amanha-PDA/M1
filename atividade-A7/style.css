@@ -1,0 +1,19 @@
+/* SELETORES */
+
+ /* ID */
+ /* id é um valor unico E nao pode ser repetido */
+#container{
+    background-color: blue;
+}
+
+ /* CLASS */
+/* classes ser um estilo compartilhado com varios elementos */
+.titulo{
+    color: chartreuse;
+}
+
+ /* TAG */
+ /* quando queremos estilizar TODAS as TAGS */
+p{
+    color: brown;
+}
