@@ -1,3 +1,8 @@
 body{
     background-color: aquamarine;
 }
+
+.title{
+    color: blue;
+    font-size: 90px;
+}
