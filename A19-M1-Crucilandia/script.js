@@ -34,24 +34,24 @@ var listaSalgado = [true,false,true,true];
 //      INDEX        0        1   
 var listaNome = ["beatriz", "tabs"]
 // substituindo valores
-// listaNome[0] = "Joao Miguel"
-// console.log(listaNome)
+listaNome[0] = "Joao Miguel"
+console.log(listaNome)
 
-// // nomeArray.push(item) – Adiciona um item ao final do array.
-// listaNome.push("Marcilene")
-// console.log(listaNome)
+// nomeArray.push(item) – Adiciona um item ao final do array.
+listaNome.push("Marcilene")
+console.log(listaNome)
 
-// // nomeArray.pop() – Remove o último item do array.
-// listaNome.pop();
-// console.log(listaNome)
+// nomeArray.pop() – Remove o último item do array.
+listaNome.pop();
+console.log(listaNome)
 
-// // nomeArray.unshift(item) – Adiciona um item no início do array.
-// listaNome.unshift("Lauanda");
-// console.log(listaNome);
+// nomeArray.unshift(item) – Adiciona um item no início do array.
+listaNome.unshift("Lauanda");
+console.log(listaNome);
 
-// // nomeArray.shift() – Remove o primeiro item do array
-// listaNome.shift();
-// console.log(listaNome);
+// nomeArray.shift() – Remove o primeiro item do array
+listaNome.shift();
+console.log(listaNome);
 
 var listaMusicasFesta = [];
 
@@ -62,6 +62,9 @@ var nomeMusica3 = prompt("digite uma musica");
 
 listaMusicasFesta.push(nomeMusica,nomeMusica1, nomeMusica2, nomeMusica3)
 console.log(listaMusicasFesta);
+
+// escrevendo no html a lista de musicas que o usuario inseriu
+document.write(`<h1>${listaMusicasFesta[4]}</h1>`);
 
 
 
