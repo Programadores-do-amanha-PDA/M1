@@ -1,3 +1,25 @@
 body{
     background-color: pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li{
+    background-color: #ffcc00;
+    padding: 10px;
+    margin: 15px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    list-style: none;
+    color: #333;
+    transition:  transform 0.3, box-shadow 0.3s;;
+    width: 20%;
+    text-align: center;
+}
+
+li:hover{
+    background-color: rgb(30, 225, 30);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(226, 10, 10, 0.664);
 }
