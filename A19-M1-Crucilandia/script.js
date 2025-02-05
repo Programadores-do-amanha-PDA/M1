@@ -26,6 +26,7 @@ var nome3 = "aniel";
 // CATEGORIAS -> JUNTAR VALORES PARECIDO varios idades de alunos CATEGORIA IDADE DOSS ALUNOS
 
 // 10mb
+//                 elemento      item 
 var listaNomes = ["ana clara","ana vitoria", "aniel"];
 var listaIdades = [23,25,29];
 var listaSalgado = [true,false,true,true];
@@ -39,14 +40,17 @@ console.log(listaNome)
 
 // nomeArray.push(item) – Adiciona um item ao final do array.
 listaNome.push("Marcilene")
+// ["beatriz", "tabs", "Marcilene"]
 console.log(listaNome)
 
 // nomeArray.pop() – Remove o último item do array.
 listaNome.pop();
+// ["beatriz", "tabs"]
 console.log(listaNome)
 
 // nomeArray.unshift(item) – Adiciona um item no início do array.
 listaNome.unshift("Lauanda");
+// ["Lauanda", "beatriz", "tabs"]
 console.log(listaNome);
 
 // nomeArray.shift() – Remove o primeiro item do array
@@ -66,9 +70,15 @@ console.log(listaMusicasFesta);
 // escrevendo no html a lista de musicas que o usuario inseriu
 document.write(`<h1>${listaMusicasFesta[4]}</h1>`);
 
+// document = HTML
+// getElementById = buscando tag por id <li id="item1">
+// .innerHTML = vai substituir o valor escrito dentro da tag
+document.getElementById("item1").innerHTML = `${listaMusicasFesta[0]}`
+document.getElementById("item2").innerHTML = `${listaMusicasFesta[1]}`
+document.getElementById("item3").innerHTML = `${listaMusicasFesta[2]}`
 
 
-
+// document.getElementById("img1").src = "./perfume.png"
 
 
 
