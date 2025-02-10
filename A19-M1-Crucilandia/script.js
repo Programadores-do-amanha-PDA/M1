@@ -77,7 +77,6 @@ document.getElementById("item1").innerHTML = `${listaMusicasFesta[0]}`
 document.getElementById("item2").innerHTML = `${listaMusicasFesta[1]}`
 document.getElementById("item3").innerHTML = `${listaMusicasFesta[2]}`
 
-
 // document.getElementById("img1").src = "./perfume.png"
 
 

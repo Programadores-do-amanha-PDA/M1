@@ -21,7 +21,11 @@ var teste = 90
 // document = html
 // document.write = escrevendo no HTML
 //document.write(`<h1 class="title">${somar(23,5)}</h1>`);// saida 
+// ["joao miguel", tabs]
 
+// ["tabs"]
+
+// []
 prompt // entrada
 // 1. criar uma funcao que recebe como parametro nome completo
 // 2. funçao deve EXIBIR no HTML 
