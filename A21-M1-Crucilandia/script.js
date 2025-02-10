@@ -42,8 +42,29 @@ function exibirLista(){
 }
 
 exibirLista()
+ 
+// ------------------------------------------------------------
 
 // Crie um sistema que crie uma lista de tarefas
 // peça ao usuario que digite as suas tarefas e insira elas 
 // na lista criada ao final do sistema
 
+var listaTarefas =[]
+
+for (var i = 0; i < 4; i++) {
+    // peça ao usuario que digite as tarefas[x]
+    var tarefa = prompt("digite o nome de uma tarefa para adicionar na lista");
+
+    // insira eles na lista criada [x]
+    listaTarefas.push(tarefa);
+}
+
+function exibirListaTarefa(){
+    console.log(listaTarefas)
+    for (var i = 0; i < listaTarefas.length; i++) {
+        // estou criando um item no html para CADA ELEMENTO/POSIÇÃO DO ARRAY
+        document.write(<li>${listaTarefas[i]}</li>)
+    }
+}
+
+exibirListaTarefa()
