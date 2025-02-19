@@ -1,0 +1,63 @@
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction:  row;
+    gap: 10px;
+}
+
+#chat-container{
+    background-color: white;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#list-messages{
+    list-style: none;
+    max-height: 300px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#send-message{
+    border-radius: 10px;
+}
+
+.my-message{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #dcf8c6;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.other-message{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ecc726;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input{
+    width: 70%;
+    margin-left: 35px;
+    padding: 4px;
+}
+
+button{
+    width: 15%;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(28, 102, 221);
+    color: white;
+}
